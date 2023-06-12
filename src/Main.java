@@ -8,12 +8,5 @@ public class Main {
         Book book3 = new Book("Is Australia real?", author2, 2021);
 
         book2.setPublicationYear(1999);
-        System.out.println(book1);
-        System.out.println(book2);
-        System.out.println(book3);
-
-        System.out.println(book1.equals(book2));
-        Book book4 = new Book("More zovet", author1, 1984);
-        System.out.println(book1.equals(book4));
     }
 }
